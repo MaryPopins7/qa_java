@@ -14,15 +14,16 @@ public class LionTest {
     @Mock
         private Feline feline;
 
+
     @Test
     public void felineGetKittensDefaultNumberTest() throws Exception {
-        Lion lion = new Lion(defaultSex, feline);
+        Lion lion = new Lion(defaultSex);
         Assert.assertEquals(1, lion.getKittens());
     }
 
      @Test
     public void lionGetFood() throws Exception {
-        Lion lionAnimal = new Lion(defaultSex, feline);
+        Lion lionAnimal = new Lion(defaultSex);
         List<String> expectedFood = List.of("Животные", "Птицы", "Рыба");
         Assert.assertEquals(expectedFood, lionAnimal.getFood());
     }

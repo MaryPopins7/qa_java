@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7aa6a675-9678-4784-9ea9-00ebbcae3f63" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Cat.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Lion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Lion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/LionParameterizedTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/LionParameterizedTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/LionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/LionTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +48,11 @@
     &quot;last_opened_file_path&quot;: &quot;C:/cygwin64/home/tropi/qa_java&quot;
   }
 }</component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn verify" />
+    </option>
+  </component>
   <component name="RunManager" selected="JUnit.LionParameterizedTest">
     <configuration name="CatTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="untitled" />
@@ -95,9 +103,9 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.LionParameterizedTest" />
+        <item itemvalue="JUnit.LionTest" />
         <item itemvalue="JUnit.CatTest" />
         <item itemvalue="JUnit.FelineTest" />
-        <item itemvalue="JUnit.LionTest" />
         <item itemvalue="JUnit.LionTest.getKittens" />
       </list>
     </recent_temporary>
