@@ -9,11 +9,11 @@ import static org.junit.Assert.assertEquals;
 
 @RunWith(Parameterized.class)
 public class LionParameterizedTest{
-    private final String defaultSex;
+    private final String sex;
     private final boolean expected;
 
-    public LionParameterizedTest(String gender, boolean expected) {
-        this.defaultSex = gender;
+    public LionParameterizedTest(String sex, boolean expected) {
+        this.sex = sex;
         this.expected = expected;
     }
 
@@ -28,7 +28,7 @@ public class LionParameterizedTest{
     @Test
     public void lionIsCreate() throws Exception {
         Feline feline = Mockito.mock(Feline.class);
-        Lion lion = new Lion(defaultSex, feline);
+        Lion lion = new Lion(sex, feline);
         boolean actual = lion.doesHaveMane();
 
         assertEquals(expected, actual);
