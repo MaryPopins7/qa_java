@@ -10,20 +10,20 @@ import java.util.List;
 
 @RunWith(MockitoJUnitRunner.class)
 public class LionTest {
-    private final String defaultSex = "Самец";
+    private final String sex = "Самец";
     @Mock
         private Feline feline;
 
 
     @Test
     public void felineGetKittensDefaultNumberTest() throws Exception {
-        Lion lion = new Lion(defaultSex);
+        Lion lion = new Lion(sex, feline);
         Assert.assertEquals(1, lion.getKittens());
     }
 
      @Test
     public void lionGetFood() throws Exception {
-        Lion lionAnimal = new Lion(defaultSex);
+        Lion lionAnimal = new Lion(sex, feline);
         List<String> expectedFood = List.of("Животные", "Птицы", "Рыба");
         Assert.assertEquals(expectedFood, lionAnimal.getFood());
     }
